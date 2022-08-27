@@ -13,7 +13,7 @@
 	<body>
 		<?php
 			include 'config/conf.php';
-			include 'config/redir.php';		
+			include 'config/redir.php';
 		?>
 		<form method="post">
 			<table align="center">
