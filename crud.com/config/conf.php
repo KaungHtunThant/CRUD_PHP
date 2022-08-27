@@ -2,9 +2,9 @@
 	//Start connection
 	function dbConnect(){
 		$servername = "localhost";							//rarely need to edit this
-		$username = "";								//must edit this
-		$password = "";								//edit if required
-		$db = "id19307040_testdata";							//edit if required
+		$username = "yuuji";								//must edit this
+		$password = "3ug3n32c4r13T//";								//edit if required
+		$db = "testdata";							//edit if required
 		$conn = mysqli_connect($servername, $username, $password, $db);
 		if ($conn->connect_error) {
 	        die("Connection failed: " . $conn->connect_error);
